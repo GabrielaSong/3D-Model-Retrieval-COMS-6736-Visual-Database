@@ -1,10 +1,16 @@
 # 3D-Model-Retrieval-COMS-6736-Visual-Database
 COMS 6736 Visual Database Final Project
+<br />
 mkdir release 
+<br />
 cd release
+<br />
 cmake ..
+<br />
 make
+<br />
 make install
+<br />
 
 sse filelist -d static/dataset/ -p "*.jpg" -o ../../filelist
 <br />
